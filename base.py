@@ -11,4 +11,4 @@ def hello_world():
 
 if __name__ == "__main__":
     port = int(os.getenv('PORT'))
-    app.run(port = int(os.getenv('PORT'))s)
+    app.run(Debug = False,port = int(os.getenv('PORT'))s)
